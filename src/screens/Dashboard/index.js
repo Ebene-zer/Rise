@@ -5,7 +5,7 @@ export const DashboardScreen = () => {
   const [currentTime, setCurrentTime] = React.useState(new Date());
   const [nextReminder, setNextReminder] = React.useState(null);
 
-  // Update time every second
+  // Update the time 
   React.useEffect(() => {
     const timer = setInterval(() => {
       const now = new Date();
