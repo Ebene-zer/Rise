@@ -2,7 +2,8 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import WelcomeScreen from '../src/screens/WelcomeScreen';
+import WelcomeScreen from '../screens/WelcomeScreen';
+import PinVerificationScreen from '../screens/PinVerificationScreen';
 import AppTabs from './AppTabs';
 
 export default function AppStack() {
@@ -16,6 +17,7 @@ export default function AppStack() {
         initialRouteName="Welcome"
       >
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
+        <Stack.Screen name="PinVerification" component={PinVerificationScreen} />
         <Stack.Screen name="Home" component={AppTabs} />
         
       </Stack.Navigator>
