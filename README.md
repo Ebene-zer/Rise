@@ -29,7 +29,7 @@
 ## 📱 Screens
 
 ### 1. **Welcome Screen**
-- App logo, tagline: _"30 minutes to fix your damn life"_
+- App logo, tagline: _"Get Your shit together"_
 - “Start Now” button
 
 ### 2. **Home / Dashboard**
